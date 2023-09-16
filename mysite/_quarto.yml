@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Alan's MDS Site"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Landing Page
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
